@@ -1074,7 +1074,7 @@ switch or if else)*/
 размером n.
 Нам нужно сгенерировать рандомные числа массиву так чтобы
 каждое следующее число было больше предыдущей*/
-      /*  System.out.println(array(5));
+    /*    System.out.println(array(5));
     }
         public static int []array(int n) {
             Random random = new Random();
@@ -1096,18 +1096,19 @@ switch or if else)*/
 являются ли все элементы массива положительными числами.
 Если все элементы положительные то вернуть true, в других случая
 вернуть false*/
-        /*int []array={-1,-2,3,-4,-5,-6,-7,-8,-9};
+     /*   int []array={-1,-2,-1,-4,-5,-6,-7,-8,-9};
         System.out.println(getInfo(array));
         }
     public static boolean getInfo(int []array) {
-        for (int i = 0; i < array.length; i++) {
-              if(array[i]>0){
+        for (int numbersOfArray:array) {
+              if(numbersOfArray>0){
                   return true;
         }
         }
            return false;
     }
 }*/
+
 /*25.  Дан массив состоящий из целых положительных чисел, и целое
 число n.
 Массив можно вручную заполнить (не сканнер), целое число n тоже
@@ -1240,9 +1241,9 @@ switch or if else)*/
 
 
 
-
     }
 }
+
 
 
 
